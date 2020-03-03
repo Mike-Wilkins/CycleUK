@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
             <div class="container">
-                @Html.ActionLink("CycleUK 2020", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("MeetUp Progs 2020", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
                     @Html.Partial("_LoginPartial")
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link text-light" })
+                            @Html.ActionLink("Home", "Index", "Events", new { area = "" }, new { @class = "nav-link text-light" })
                         </li>
                         <li class="nav-item">
                             @Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link text-light" })
@@ -45,7 +45,7 @@
 
     <footer class="border-top card-footer text-muted">
         <div class="container">
-            &copy; @DateTime.Now.Year - CycleUK Mike Wilkins
+            &copy; @DateTime.Now.Year - MeetUp Progs Mike Wilkins
         </div>
     </footer>
 
